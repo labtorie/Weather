@@ -8,4 +8,7 @@ const reducers = combineReducers({
 
 const store = createStore(reducers)
 
+// это можно в консоли вызывать store.getState()
+window.store = store
+
 export default store

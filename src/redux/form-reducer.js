@@ -11,7 +11,6 @@ const formReducer = (state=initialState,action) => {
             let stateCopy = {...state}
             stateCopy.city = action.city
             stateCopy.country = action.country
-            debugger
             return stateCopy
         }
         default: return state

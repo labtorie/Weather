@@ -6,9 +6,7 @@ import Weather from "./weather";
 
 
 const WeatherContainer = ({city,country}) => {
-    debugger
     return <Weather cityAPI={city} countryAPI={country}/>
-
 }
 
 let mapStateToProps = (state) => {
